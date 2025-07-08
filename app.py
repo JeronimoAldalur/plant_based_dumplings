@@ -35,9 +35,9 @@ st.image(
     use_container_width=True
 )
 
-# Botón de contacto WhatsApp para el producto seleccionado
-whatsapp_number = st.secrets.get("WHATSAPP_NUMBER", "5491123456789")  # Número configurado en Secrets o valor por defecto
-message = f"¡Hola! Quiero pedir info sobre el producto {selected_img.replace('.png', '')}!"
+# Botón de contacto WhatsApp para todos los productos
+whatsapp_number = st.secrets.get("WHATSAPP_NUMBER", "5491124618125")
+message = "¡Hola! Quiero más información sobre sus dumplings plant-based."
 url = f"https://api.whatsapp.com/send?phone={whatsapp_number}&text={message}"
 
 st.markdown(
