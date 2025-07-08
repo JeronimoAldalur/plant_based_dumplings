@@ -1,0 +1,2 @@
+streamlit==1.46.1
+pillow==11.3.0        # si llegás a procesar o reescalar imágenes
